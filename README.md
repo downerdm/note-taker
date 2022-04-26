@@ -2,24 +2,25 @@
 
 ## Your Task
 
-The assignment was to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+The assignment was to modify starter code to create an application called Note Taker that can be used to write and save notes. This application uses an Express.js back end and will save and retrieve note data from a JSON file.
 
 My task was to build the back end, connect the two, and then deploy the entire application to Heroku.
 
-On the back end, the application should include a `db.json` file that will be used to store and retrieve notes using the `fs` module.
+On the back end, the application includes a `db.json` file that will be used to store and retrieve notes using the `fs` module.
 
-The following HTML routes should be created:
+The following HTML routes were created:
 
-* `GET /notes` should return the `notes.html` file.
+* `GET /notes` returns the `notes.html` file.
 
-* `GET *` should return the `index.html` file.
+* `GET *` returns the `index.html` file.
 
-The following API routes should be created:
+The following API routes were created:
 
-* `GET /api/notes` should read the `db.json` file and return all saved notes as JSON.
+* `GET /api/notes` reads the `db.json` file and returns all saved notes as JSON.
 
-* `POST /api/notes` should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client. Each note is given a unique id when it's saved.
+* `POST /api/notes` receives a new note to save on the request body, adds it to the `db.json` file, and then returns the new note to the client. Each note is given a unique id when it's saved.
 
+The original User Story and Acceptance Criteria were as follows:
 
 ## User Story
 
@@ -58,54 +59,4 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Link to Deployed Application
 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria plus the following:
-
-  * Application front end must connect to an Express.js back end.
-
-  * Application back end must store notes that have a unique id in a JSON file.
-
-  * Application must be deployed to Heroku.
-
-
-### Deployment: 36%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-
-### Application Quality: 11%
-
-* Application console is free of errors.
-
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a README describing the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+<https://note-taker-downer.herokuapp.com/>
